@@ -19,10 +19,12 @@ http://demo.wancms.com/index.php?g=api&m=checkcode&a=index&code_len=4&font_size=
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/2.png?raw=true)
 Open the grab tool burpz, grab the data of the authentication code interface as follows, and send the right button to repeater.
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/3.png?raw=true)
-Next, we increase the values of width or font_size or heigth and find that the right lower corner return time is 6159millis
+We can see the font size, length and width related parameters of the verification code, and the return time at the lower right corner is 67millis.
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/4.png?raw=true)
-The value of the parameter is added again, and it is found that the return time is longer.
+Next, we increase the values of width or font_size or heigth and find that the right lower corner return time is 6159millis
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/5.png?raw=true)
+The value of the parameter is added again, and it is found that the return time is longer.
+![exploit](https://github.com/HUILYUH/wancms/blob/master/6.png?raw=true)
 ##Suggestions for rectification:
 ###Delete these parameters in the link, or verify the server side, do not modify these parameters, or use other verification code. mode
 
