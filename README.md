@@ -26,6 +26,6 @@ Next, we increase the values of width or font_size or heigth and find that the r
 The value of the parameter is added again, and it is found that the return time is longer.
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/6.png?raw=true)
 When we visit the home page, we can clearly find the delay, http://demo.wancms.com/. If we change the parameters even more, the delay time is longer or even not opened. This vulnerability exists at all of the authentication codes of Wancms.
-##Suggestions for rectification:
-###Delete these parameters in the link, or verify the server side, do not modify these parameters, or use other verification code. mode
+## Suggestions for rectification:
+Delete these parameters in the link, or verify the server side, do not modify these parameters, or use other verification code. mode
 
