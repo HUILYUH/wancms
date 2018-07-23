@@ -13,7 +13,7 @@ http://demo.wancms.com/index.php?g=api&m=checkcode&a=index&code_len=4&font_size=
 ## Vulnerability Description:
 We come to the front logon with the OA system
 http://demo.wancms.com/user/login/forgot_password.html
-![6](https://github.com/HUILYUH/wancms/blob/master/6.png?raw=true)
+![exploit](https://github.com/HUILYUH/wancms/blob/master/1.png?raw=true)
 Get the verification code address at the right key at the verification code:
 http://demo.wancms.com/index.php?g=api&m=checkcode&a=index&code_len=4&font_size=20&width=200&height=35&charset=1234567890
 ![exploit](https://github.com/HUILYUH/wancms/blob/master/2.png?raw=true)
